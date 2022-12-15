@@ -1,3 +1,12 @@
+## Task 2
+
+cd web
+skaffold build --interactive=false \
+--default-repo {INSERT YOUR ARTIFACT REPOSITORY HERE} \
+--file-output artifacts.json
+cd ..
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Task 3
 
