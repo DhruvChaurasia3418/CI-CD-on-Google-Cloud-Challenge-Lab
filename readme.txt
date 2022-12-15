@@ -64,7 +64,7 @@ done
 envsubst < clouddeploy-config/target-staging.yaml.template > clouddeploy-config/target-cd-staging.yaml
 envsubst < clouddeploy-config/target-prod.yaml.template > clouddeploy-config/target-cd-production.yaml
 sed -i "s/staging/cd-staging/" clouddeploy-config/target-cd-staging.yaml
-sed -i "s/prod/cd-production/" clouddeploy-config/target-cd-production.yam
+sed -i "s/prod/cd-production/" clouddeploy-config/target-cd-production.yaml
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
