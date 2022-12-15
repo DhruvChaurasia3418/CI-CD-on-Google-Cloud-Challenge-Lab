@@ -42,7 +42,7 @@ gcloud beta deploy delivery-pipelines describe web-app
 
 
 
-#### Re run this command till status turns to running from provisioning
+## Re run this command till status turns to running from provisioning
 
 
 gcloud container clusters list --format="csv(name,status)"
@@ -106,7 +106,7 @@ gcloud beta deploy releases create web-app-001 \
 
 ## Task 5
 
-#### promote & approve
+### promote & approve
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
