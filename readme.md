@@ -13,14 +13,10 @@ cd ..
 
 ## Task 3
 
-1. Run command from lab
+Run command from lab
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-2. run this command
 
 
 gcloud config set deploy/region $REGION
